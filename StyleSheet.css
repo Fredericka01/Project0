@@ -1,53 +1,58 @@
 h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    position: relative; left: 820px; top: -550px;
-    color: #4c4f54;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  position: relative; left: 820px; top: -550px;
+  color: #4c4f54;
 }
 
 h3 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 200;
-    position: relative; left: 845px; top: -575px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  position: relative; left: 50%; top: 50%;
+}
+
+#img1 {
+  position: relative; left: -10px; top:-10px;
+}
+
+#menu {    
+  float: right;
+  position: relative;
+  top: 4%;
+  left: 10%;
+  }
+
+#menu, #menu ul {
+  padding:3px;
+  margin:0px;
+  list-style:none;
+  width: 180px; /* seule ligne rajoutée */
 }
 
 
-#menu, #menu ul {
-    padding:3px;
-    margin:2px;
-    
-    list-style:none;
-    width: 180px; /* seule ligne rajoutée */
+#lispec {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: lightgray;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2px;
+}
+
+#menu a {
+  display:block;
+  text-decoration: none;
+  color: #000;
+}
+
+#menu ul {
+  position: absolute;
+  left: -9990em;
+
+  
+}
+
+#menu li:hover ul {
+  top: 0;
+  left: -180px;
+
   }
-
-  #menu li {
-    position: relative;
-    border:2px;
-    background:#EFEFEF; /* hyde text */
-  }
-
-  #menu a {
-    display:block;
-    text-decoration: none;
-    color: #000;
-  }
-
-  #menu ul {
-    position: absolute;
-    left:-9990em;
-
-    
-  }
-
-  #menu li:hover ul {
-    top: 0;
-    left: 180px;
-
-    }
-
-  .tabs1 {
-    float: right;
-    position: absolute;
-    top: 4%;
-    left: 96%;
-    }
