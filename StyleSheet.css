@@ -26,6 +26,7 @@
   position: relative;
   top: 4%;
   left: 10%;
+  z-index: 3;
   }
 
 #menu, #menu ul {
