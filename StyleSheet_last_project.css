@@ -13,7 +13,11 @@ h1 {
     position: absolute; left: 40px; bottom: 20px;
 }
 
-
+#text_hangman{
+    width: 600px;
+    position: relative; left: 600px; top: -60px;
+    font-size: larger;
+}
 
 
 
