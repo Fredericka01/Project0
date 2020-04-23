@@ -37,6 +37,9 @@
   width: 180px; /* seule ligne rajoutée */
 }
 
+div > ul {
+  width: 40px;
+}
 
 #lispec {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
