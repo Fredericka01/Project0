@@ -26,3 +26,7 @@ h1 {
     margin-top: 2%;
     z-index: 3;
     }
+
+#img4 { 
+    position: absolute; left: 900px; top: 250px;
+}
