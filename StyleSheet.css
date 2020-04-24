@@ -26,7 +26,7 @@
   float: right;
   position: relative;
   top: 4%;
-  left: 10%;
+  left: 0%;
   z-index: 3;
   }
 
@@ -34,12 +34,17 @@
   padding:3px;
   margin:0px;
   list-style:none;
-  width: 180px; /* seule ligne rajoutée */
+}
+
+ul > li {
+  width: 40px;
+  margin-right: 0px;
 }
 
 div > ul {
   width: 40px;
 }
+
 
 #lispec {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -47,6 +52,7 @@ div > ul {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 2px;
+  width: 180px;
 }
 
 #menu a {
